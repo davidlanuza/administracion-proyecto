@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/columnas.css">
+</head>
+<body>
+    
+    <nav class="padre">
+            <span class="etiqueta">bievenido:{{usuario}}</span>
+            <a href="/{{usuario}}/resultadols" class="nav-enlace">ls</a>         
+            <a href="/{{usuario}}/resultadops" class="nav-enlace">ps</a>
+            <a href="/{{usuario}}/resultadoifconfig" class="nav-enlace">ifconfig</a>
+            <a href="#" class="nav-enlace">comando preferido</a>
+            <button class="nav_accion" onclick="accion()">resultadols</button>
+    </nav>
+   
+   
+    <p class="diseño desaparece">hola amigos como estan</p>
+
+
+    <footer class="nav_b">
+        <button class="nav_boton desaparece">Excel</button>
+        <button class="nav_boton desaparece">PDF</button>
+
+    </p>
+
+    <script>
+    function accion(){
+        var ancla =document.getElementsByClassName('nav_boton');
+        var text =document.getElementsByClassName('diseño');
+        for(var i = 0; i < ancla.length; i++){
+            ancla[i].classList.toggle('desaparece');
+        }
+        for(var i = 0; i < text.length; i++){
+            text[i].classList.toggle('desaparece');
+        }
+    }
+    </script>
+
+
+</body>
+</html>

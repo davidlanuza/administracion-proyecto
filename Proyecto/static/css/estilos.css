@@ -1,0 +1,49 @@
+body{
+    background: #46b5d1;
+}
+
+
+nav{
+    background: #151965;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav-boton{
+    background: #32407b;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+}
+
+.nav-boton:hover{
+    background: #515585;
+}
+
+.otro-nav{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+h2{
+    color: #fff;
+}
+
+.mandar{
+
+    padding: 5px 10px;
+}
+.btman{
+    background: #32407b;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+}
+
+input[type =text]{
+    width: 100%;
+    margin: 10px 0px;
+    background-color: #dff6f0;
+}

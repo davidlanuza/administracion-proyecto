@@ -1,0 +1,6 @@
+{
+	"comandos":[
+		{"comando":"ls"},{"comando":"ps"},{"comando":"ifconfig"}
+	
+	]
+}

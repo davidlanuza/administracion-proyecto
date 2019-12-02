@@ -1,0 +1,2 @@
+datos = pd.read_csv('Respuesta.txt',error_bad_lines=False,engine="python",index_col=False,header=None)
+datos.to_excel("Excel.xlsx", index=False,header=False)
